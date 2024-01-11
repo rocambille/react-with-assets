@@ -36,6 +36,10 @@ code {
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  background-image: url("./assets/logo.svg");
+  /* /src/assets/logo.svg en dev */
+  /* /assets/logo-ecc203fb.svg en build */
+  background-size: contain;
 }
 
 .App-link {
